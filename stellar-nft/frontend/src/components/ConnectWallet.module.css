@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.warning {
+  background-color: #ff4b4b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.walletBox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.pubkey {
+  font-family: monospace;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.btn {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #4f46e5;
+}
+
+.btnSecondary {
+  background-color: transparent;
+  color: #a1a1aa;
+  border: 1px solid #3f3f46;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btnSecondary:hover {
+  background-color: #3f3f46;
+  color: white;
+}
